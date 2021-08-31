@@ -37,6 +37,6 @@ def main():
     print(y)
     print(m)
     print(d)
-#codigo correcto
+#codigo correcto 07
 if __name__=='__main__':
     main()
