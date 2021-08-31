@@ -7,10 +7,10 @@ def main():
     c=int(input("Da el valor de c: "))
     if (a==0) and (b==0):
         print("No tiene solucion")
-    elif (a==0):
+    elif (a==0) and (b!=0):
         raiz=-c/b
         print(raiz)
-    else:
+    elif a!=0 and b!=0:
         discrim=b**2-4*a*c
         if (discrim)>0:
             x1=(-b+math.sqrt(discrim))/(2*a)
@@ -23,6 +23,5 @@ def main():
             x=-b/(2*a)
             print(x)
 
-#codigo correcto 11
 if __name__ == '__main__':
     main()
